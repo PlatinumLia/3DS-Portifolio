@@ -22,3 +22,39 @@ h1, h3
 {
     font-family: var(--fonteTitulo);
 }
+
+a
+{
+    text-decoration: none;
+    color: var(--platina);
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.btn:hover
+{
+    text-decoration: underline;
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+
+.modal-title
+{
+    color: var(--preto);
+}
+
+.modal-paragrafo
+{
+    color: var(--preto);
+}
+
+.footer-link
+{
+    text-decoration: none;
+    color: var(--platina);
+    font-size: 1.2em;
+    padding: 20px;
+}

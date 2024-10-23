@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -9,78 +9,232 @@
 </head>
 
 <body class="container text-center">
-    <img class="img-thumbnail w-25 mt-5 rounded-circle" src="https://avatars.githubusercontent.com/u/134401063?s=400&u=c4c2e5f25dfb41b591a43bd1c1e22674d33f83f2&v=4" alt="Minha foto">
-    <p class="lead m-3">Olá, eu me chamo Lia</p>
+  <img class="img-thumbnail w-25 mt-5 rounded-circle" src="https://avatars.githubusercontent.com/u/134401063?s=400&u=c4c2e5f25dfb41b591a43bd1c1e22674d33f83f2&v=4" alt="Minha foto">
+  <p class="lead m-3">Olá, eu me chamo Lia</p>
     <h1>Sou estudante de programação iniciante</h1>
-    <p> # </p>
+    <p> Sou uma programadora iniciante que começou seus estudos no ano de 2022. Nesse tempo além de aprender os conceitos básicos da programação, também </p>
     <h3>Minhas habilidades</h3>
     <div>
-        <p class="badge text-bg-light">HTML, CSS</p>
+      <p class="badge text-bg-light">HTML, CSS</p>
         <p class="badge text-bg-light">JavaScript</p>
         <p class="badge text-bg-light">C#</p>
         <p class="badge text-bg-light">C</p>
         <p class="badge text-bg-light">Python</p>
-    </div>
-    
-    <main class="container d-flex justify-content-around">
-        <div class="card" style="width: 18rem;">
-            <img src="img/Tratamento-de-Dados.png" class="card-img-top" alt="...">
+      </div>
+      
+      <main class="container">
+        <div class= "container row justify-content-around">
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/Tratamento-de-Dados.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Tratamento de Dados</h5>
               <p class="card-text">Projeto desenvolvido para manipular dados e criar graficos.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal01">
+                Saiba mais
+              </button>
             </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="img/UraharaMangas.png" class="card-img-top" alt="...">
+          </div>  
+          
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/UraharaMangas.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Urahara Mangás</h5>
               <p class="card-text">Projeto desenvolvido usando Python para simular um aplicativo de cadastro, ativação ou desativação de mangá de um sistema.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal02">
+                Saiba mais
+              </button>
             </div>
           </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="img/voceDecide.png" class="card-img-top" alt="...">
+          
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/voceDecide.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Você decide</h5>
               <p class="card-text">Projeto desenvolvido em JavaScript, uma pequena historia de aventura com escolhas e consequências.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal03">
+                Saiba mais
+              </button>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/numeroSecreto.png" class="card-img-top" alt="...">
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/numeroSecreto.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Número secreto</h5>
               <p class="card-text">Projeto desenvolvido utilizando uma API de reconhecimento de voz.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal04">
+                Saiba mais
+              </button>
             </div>
-          </div>
+          </div> 
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/sakashimaLivros.png" class="card-img-top" alt="...">
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/sakashimaLivros.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Sakashima Livros</h5>
               <p class="card-text">Projeto de landing page de uma livraria usando HTMl e CSS.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal05">
+                Saiba mais
+              </button>
             </div>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img src="img/flappyBird.png" class="card-img-top" alt="...">
+          <div class="card col-md-4 m-3" style="height:25rem; width:20rem;">
+            <img src="img/flappyBird.png" class="card-img-top pt-2" alt="...">
             <div class="card-body">
               <h5 class="card-title">Flappy Bird</h5>
               <p class="card-text">Jogo de plataforma mobile desenvolvido em Javascript para rodar no Chrome.</p>
-              <a href="#" class="btn btn-primary">Saiba mais</a>
+              <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#modal06">
+                Saiba mais
+              </button>
             </div>
           </div>
+        </div>
 
-    </main>
+        <!-- Modal01 -->
+      <div class="modal fade" id="modal01" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Tratamento de Dados</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em JavaScript. </p>
+              <p class="modal-paragrafo"> Criado para gerar gráficos interativos em uma
+                página web, este projeto manipula dados externos através de APIs e utiliza bibliotecas como
+                o Plotly.</p> 
+              <p class="modal-paragrafo"> O projeto também incluiu uma pesquisa ativa com os estudantes do CCM Tancredo de Almeida Neves, utilizando o Google Forms para a coleta e análise de dados, promovendo a interpretação das informações obtidas. </p>
+              <img class="w-100" src="img/Tratamento-de-Dados.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://platinumlia.github.io/2024-TratamentoDeDados/"> Visite o site </a> </button>
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/2024-TratamentoDeDados"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
 
+        <!-- Modal02 -->
+      <div class="modal fade" id="modal02" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Urahara Mangás</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em Python. </p>
+              <p class="modal-paragrafo"> Desenvolvido com o objetivo de gerenciar o cadastro de mangás em uma livraria, este projeto abordou conceitos fundamentais da linguagem, como variáveis, listas e funções. </p> 
+              <p class="modal-paragrafo"> O projeto proporcionou uma introdução prática aos princípios básicos do Python. </p>
+              <img class="w-100" src="img/UraharaMangas.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/Python-UraharaMangas"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal03 -->
+      <div class="modal fade" id="modal03" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Você decide</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em HTML, CSS e JavaScript. </p>
+              <p class="modal-paragrafo"> Desenvolvido para criar uma história interativa, onde as escolhas dos usuários determinam o desfecho da narrativa. Este projeto tem como objetivo aprimorar os conceitos básicos de HTML, CSS e JavaScript, o que apresentou fontes e cores estilizadas, além de oferecer diferentes histórias para cada pessoa que jogar. </p>
+              <img class="w-100" src="img/voceDecide.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://platinumlia.github.io/2024--VoceDecide/"> Visite o site </a> </button>
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/2024--VoceDecide"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal04 -->
+      <div class="modal fade" id="modal04" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Número Secreto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em HTML, CSS e JavaScript. </p>
+              <p class="modal-paragrafo"> Desenvolvido para aprimorar a habilidade nas linguagens de marcação HTML e CSS, e na linguagem de programação Javascript. </p>
+              <p class="modal-paragrafo"> O site utiliza reconhecimentode voz. Para fazer o site reconhecer o microfone o projeto utiliza uma API externa que funciona pelo JavaScript para o reconhecimento de voz. </p>
+              <img class="w-100" src="img/numeroSecreto.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://platinumlia.github.io/3DS-AdivinhaNumero/"> Visite o site </a> </button>
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/3DS-AdivinhaNumero"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal05 -->
+      <div class="modal fade" id="modal05" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Sakashima Livros</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em HTML e CSS. </p>
+              <p class="modal-paragrafo"> Este projeto foi desenvolvido apenas com HTML e CSS com o intuito de treinar essas linguagens de marcação. </p>
+              <p class="modal-paragrafo"> O desenvolvimento desse site treinou a base de ambas as linguagens, tais como "main", "li", "ul" e "ol", "nav", e a estilização usando degradê e também conceitos como o flexbox. </p>
+              <img class="w-100" src="img/sakashimaLivros.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://platinumlia.github.io/Sakashima/"> Visite o site </a> </button>
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/Sakashima"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        <!-- Modal06 -->
+      <div class="modal fade" id="modal06" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Flappy Bird</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p class="modal-paragrafo"> Projeto em HTML e JavaScript </p>
+              <p class="modal-paragrafo"> Projeto desenvolvido para recriar o jogo "Flappy Bird" na web. </p>
+              <p class="modal-paragrafo"> O principal intuito desse projeto foi treinar os conceitos de JS, tais como funções e constantes, variáveis e, também, como utilizar sprites dentro da linguagem. </p>
+              <img class="w-100" src="img/flappyBird.png" alt="...">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-dark"> <a href="https://platinumlia.github.io/3DS-FlappyyBird/"> Visite o site </a> </button>
+              <button type="button" class="btn btn-dark"> <a href="https://github.com/PlatinumLia/3DS-FlappyyBird"> Visite o repositório </a> </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
 </body>
 
+  <footer class="container pt-5 mt-5">
+    <h2>Entre em contato</h2>
+    <div>
+      <a class="footer-link" href="https://github.com/PlatinumLia"> Github </a>
+      <a class="footer-link" href=""> Linkedin </a>
+    </div>
+    <p class="my-3"> &copy; Copyright 2024. Produzido por Lia</p>
+  </footer>
+  
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+  
 </html>
